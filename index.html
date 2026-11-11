@@ -4,161 +4,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kavin Lakshan | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Kavin Lakshan, a business student interested in entrepreneurship, digital business and creative media.">
+    <title>Kavin Lakshan — Personal Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
+<header class="site-header">
     <nav class="navbar">
-        <a href="#home" class="logo">KL.</a>
+        <a href="#home" class="logo">K<span>.</span></a>
+
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+
+        <a href="#contact" class="nav-contact">Let's talk ↗</a>
     </nav>
 </header>
 
 <main>
-<section id="home" class="hero">
-    <p class="eyebrow">BUSINESS STUDENT · ENTREPRENEUR · CREATIVE</p>
-    <h1>Hello, I'm <span>Kavin Lakshan.</span></h1>
-    <p class="hero-description">
-        A student at the Indian Institute of Management Bangalore,
-        interested in entrepreneurship, digital business, creative
-        media and building meaningful ideas.
-    </p>
-    <div class="hero-buttons">
-        <a href="#experience" class="btn primary-btn">Explore My Work</a>
-        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
-    </div>
-    <p class="location">Based in Puducherry, India.</p>
-</section>
 
-<section id="about" class="section">
-    <div class="section-heading">
-        <p class="eyebrow">01 / ABOUT ME</p>
-        <h2>A little about myself.</h2>
-    </div>
-    <div class="about-content">
-        <p>I am pursuing a BBA in Digital Business and Entrepreneurship at IIM Bangalore.</p>
-        <p>I enjoy exploring how businesses grow, how brands connect with people, and how technology creates new opportunities.</p>
-        <p>Outside academics, I have explored entrepreneurship, content creation, video editing and digital marketing.</p>
-    </div>
-</section>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow"><span class="status-dot"></span> BUSINESS · ENTREPRENEURSHIP · CREATIVE MEDIA</p>
 
-<section id="education" class="section">
-    <div class="section-heading">
-        <p class="eyebrow">02 / EDUCATION</p>
-        <h2>Academic background.</h2>
-    </div>
-    <div class="timeline">
-        <div class="timeline-item">
-            <span class="date">2026 — PRESENT</span>
-            <div>
-                <h3>Indian Institute of Management Bangalore</h3>
-                <p class="degree">BBA in Digital Business and Entrepreneurship</p>
-                <p>Exploring business fundamentals, digital transformation and entrepreneurship.</p>
+            <h1>Building ideas.<br>
+                <span>Creating impact.</span>
+            </h1>
+
+            <p class="hero-description">
+                I'm Kavin Lakshan, a Digital Business and Entrepreneurship
+                student at IIM Bangalore, interested in building brands,
+                exploring technology and creating meaningful work.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#experience" class="button button-dark">Explore my work ↗</a>
+                <a href="#contact" class="text-link">Get in touch</a>
+            </div>
+
+            <div class="hero-meta">
+                <span>Puducherry, India</span>
+                <span>Currently studying at IIM Bangalore</span>
             </div>
         </div>
-        <div class="timeline-item">
-            <span class="date">SCHOOL EDUCATION</span>
-            <div>
-                <h3>The Study L'ÉCOLE Internationale</h3>
-                <p class="degree">Senior Secondary Education — CBSE Commerce</p>
-                <p>Studied Accountancy, Business Studies, Economics, Applied Mathematics and English.</p>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Portrait of Kavin Lakshan">
+            <div class="image-caption">KAVIN LAKSHAN · 2026</div>
+        </div>
+    </section>
+
+    <section class="intro section" id="about">
+        <div class="section-label">
+            <span>01</span>
+            <span>ABOUT</span>
+        </div>
+
+        <div class="intro-content">
+            <h2>Curious about business.<br>
+                Interested in <span>what's next.</span>
+            </h2>
+
+            <p>
+                I am pursuing a BBA in Digital Business and Entrepreneurship
+                at the Indian Institute of Management Bangalore.
+            </p>
+
+            <p>
+                My interests lie at the intersection of business, technology
+                and creativity. Through entrepreneurship, content creation
+                and academic projects, I enjoy turning ideas into practical
+                experiences and learning along the way.
+            </p>
+        </div>
+    </section>
+
+    <section class="section education" id="education">
+        <div class="section-label">
+            <span>02</span>
+            <span>EDUCATION</span>
+        </div>
+
+        <div class="section-main">
+            <h2>Academic background.</h2>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2026 — PRESENT</div>
+                <div class="timeline-content">
+                    <h3>Indian Institute of Management Bangalore</h3>
+                    <p class="subheading">BBA — Digital Business and Entrepreneurship</p>
+                    <p>Studying business fundamentals, digital business and entrepreneurship.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">COMPLETED 2026</div>
+                <div class="timeline-content">
+                    <h3>The Study L'ÉCOLE Internationale</h3>
+                    <p class="subheading">Senior Secondary — CBSE Commerce</p>
+                    <p>Studied Accountancy, Business Studies, Economics, Applied Mathematics and English.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="experience" class="section">
-    <div class="section-heading">
-        <p class="eyebrow">03 / EXPERIENCE</p>
-        <h2>Things I've worked on.</h2>
-    </div>
-    <div class="cards">
-        <article class="card">
-            <span class="card-number">01</span>
-            <h3>Urban Arc</h3>
-            <p class="card-role">Co-founder · Clothing Brand</p>
-            <p>Co-created a clothing brand, gaining experience in branding, customer engagement, marketing and entrepreneurship.</p>
-            <div class="tag-list"><span>Entrepreneurship</span><span>Branding</span><span>Marketing</span></div>
-        </article>
-        <article class="card">
-            <span class="card-number">02</span>
-            <h3>Content Creation</h3>
-            <p class="card-role">Video Editing · Creative Media</p>
-            <p>Created gaming content edits for a creator with over 800K subscribers, developing storytelling and editing skills.</p>
-            <div class="tag-list"><span>Editing</span><span>Storytelling</span></div>
-        </article>
-        <article class="card">
-            <span class="card-number">03</span>
-            <h3>Student Leadership</h3>
-            <p class="card-role">Former School Head Boy</p>
-            <p>Represented the student community and developed experience in communication, teamwork and leadership.</p>
-            <div class="tag-list"><span>Leadership</span><span>Teamwork</span></div>
-        </article>
-    </div>
-</section>
-
-<section id="projects" class="section">
-    <div class="section-heading">
-        <p class="eyebrow">04 / PROJECTS</p>
-        <h2>Exploring ideas.</h2>
-    </div>
-    <div class="project-list">
-        <div class="project-item">
-            <div><h3>Urban Arc</h3><p>Building and developing a clothing brand.</p></div>
-            <span>Brand Development ↗</span>
+    <section class="section experience" id="experience">
+        <div class="section-label">
+            <span>03</span>
+            <span>EXPERIENCE</span>
         </div>
-        <div class="project-item">
-            <div><h3>Creative Media</h3><p>Video editing and visual storytelling.</p></div>
-            <span>Digital Creativity ↗</span>
-        </div>
-        <div class="project-item">
-            <div><h3>Business & Innovation</h3><p>Exploring business models and new ideas.</p></div>
-            <span>Entrepreneurship ↗</span>
-        </div>
-    </div>
-</section>
 
-<section id="skills" class="section">
-    <div class="section-heading">
-        <p class="eyebrow">05 / SKILLS</p>
-        <h2>What I bring.</h2>
-    </div>
-    <div class="skills-grid">
-        <div class="skill">Business Strategy</div>
-        <div class="skill">Entrepreneurship</div>
-        <div class="skill">Brand Development</div>
-        <div class="skill">Video Editing</div>
-        <div class="skill">Content Creation</div>
-        <div class="skill">Creative Design</div>
-        <div class="skill">Communication</div>
-        <div class="skill">Team Collaboration</div>
-    </div>
-</section>
+        <div class="section-main">
+            <h2>Learning by doing.</h2>
 
-<section id="contact" class="section contact-section">
-    <p class="eyebrow">06 / CONTACT</p>
-    <h2>Let's connect.</h2>
-    <p>Interested in collaborating or discussing opportunities? Feel free to reach out.</p>
-    <a href="mailto:s.kavinlakshan@gmail.com" class="btn primary-btn">Email Me ↗</a>
-    <div class="social-links">
-        <a href="https://linkedin.com/in/kavinlakshan" target="_blank">LinkedIn ↗</a>
-        <a href="https://github.com/kavinlakshan" target="_blank">GitHub ↗</a>
-    </div>
-</section>
+            <div class="experience-grid">
+
+                <article class="experience-card">
+                    <span class="card-index">01 / ENTREPRENEURSHIP</span>
+                    <h3>Urban Arc</h3>
+                    <p class="role">Co-founder · Clothing Brand</p>
+                    <p>
+                        Co-founded a clothing brand with a team of friends,
+                        gaining practical exposure to brand development,
+                        customer engagement, marketing and business operations.
+                    </p>
+                    <div class="tags">
+                        <span>Branding</span>
+                        <span>Marketing</span>
+                        <span>Business</span>
+                    </div>
+                </article>
+
+                <article class="experience-card">
+                    <span class="card-index">02 / CREATIVE MEDIA</span>
+                    <h3>Video Editing</h3>
+                    <p class="role">Content Editing · Freelance Experience</p>
+                    <p>
+                        Worked on gaming video edits for a digital creator,
+                        developing skills in visual storytelling, editing
+                        and audience-focused content.
+                    </p>
+                    <div class="tags">
+                        <span>Video Editing</span>
+                        <span>Storytelling</span>
+                    </div>
+                </article>
+
+                <article class="experience-card">
+                    <span class="card-index">03 / LEADERSHIP</span>
+                    <h3>School Leadership</h3>
+                    <p class="role">Former Head Boy</p>
+                    <p>
+                        Represented the student community and developed
+                        experience in communication, responsibility,
+                        collaboration and leadership.
+                    </p>
+                    <div class="tags">
+                        <span>Leadership</span>
+                        <span>Communication</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section projects" id="projects">
+        <div class="section-label">
+            <span>04</span>
+            <span>SELECTED WORK</span>
+        </div>
+
+        <div class="section-main">
+            <h2>Ideas into action.</h2>
+
+            <a href="#contact" class="project-row">
+                <div>
+                    <span class="project-type">01 / BRAND DEVELOPMENT</span>
+                    <h3>Urban Arc</h3>
+                    <p>Exploring branding, clothing and customer engagement.</p>
+                </div>
+                <span class="project-arrow">↗</span>
+            </a>
+
+            <a href="#contact" class="project-row">
+                <div>
+                    <span class="project-type">02 / DIGITAL CREATIVITY</span>
+                    <h3>Creative Media</h3>
+                    <p>Video editing and visual storytelling projects.</p>
+                </div>
+                <span class="project-arrow">↗</span>
+            </a>
+
+            <a href="#contact" class="project-row">
+                <div>
+                    <span class="project-type">03 / ACADEMIC PROJECT</span>
+                    <h3>Business & Innovation</h3>
+                    <p>Exploring business models, strategy and new ideas.</p>
+                </div>
+                <span class="project-arrow">↗</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="section skills" id="skills">
+        <div class="section-label">
+            <span>05</span>
+            <span>CAPABILITIES</span>
+        </div>
+
+        <div class="section-main">
+            <h2>Skills & interests.</h2>
+
+            <div class="skills-list">
+                <span>Business Strategy</span>
+                <span>Entrepreneurship</span>
+                <span>Brand Development</span>
+                <span>Marketing</span>
+                <span>Video Editing</span>
+                <span>Content Creation</span>
+                <span>Creative Design</span>
+                <span>Communication</span>
+                <span>Team Collaboration</span>
+            </div>
+
+            <p class="tools-note">
+                TOOLS & SOFTWARE: Canva · CapCut · DaVinci Resolve
+            </p>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <div class="section-label">
+            <span>06</span>
+            <span>CONTACT</span>
+        </div>
+
+        <div class="contact-content">
+            <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+            <h2>Let's make<br><span>something meaningful.</span></h2>
+
+            <a href="mailto:s.kavinlakshan@gmail.com" class="button button-light">
+                Get in touch ↗
+            </a>
+
+            <div class="social-links">
+                <a href="https://in.linkedin.com/in/kavin-lakshan-ab67b5341" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="https://github.com/kavinlakshan" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </div>
+    </section>
+
 </main>
 
-<footer>
-    <p>© 2026 Kavin Lakshan. Designed with purpose.</p>
+<footer class="footer">
+    <p>© 2026 Kavin Lakshan</p>
     <a href="#home">Back to top ↑</a>
+    <p>Designed with intention.</p>
 </footer>
 
 </body>
